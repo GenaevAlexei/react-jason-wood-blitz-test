@@ -1,0 +1,271 @@
+.header{
+  box-sizing: border-box;
+
+  padding-left: 0;
+  min-height: 267px;
+
+  margin: auto;
+  margin-top: 0;
+
+  background-color: #ffffff;
+  background-image: url("./headerMobile.jpg");
+}
+
+.menu_title{
+  display: block;
+  padding-top: 36px;
+
+  position: relative;
+  z-index: 2;
+
+  font-family: "PT Sans" , sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #ffffff;
+
+  background-color: #000000;
+  background-image: url("./headerMobile.jpg");
+  background-position: right top;
+}
+
+.menu_title:hover{
+  color: #cccccc;
+}
+
+.menu_title::before{
+  content: '8';
+
+  position: absolute;
+  left: -25px;
+  transform: rotate(90deg);
+}
+
+.menu{
+  position: relative;
+
+  margin-left: 72px;
+}
+
+.menu_list{
+  position: absolute;
+  z-index: 0;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 24px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  list-style: none;
+  overflow: hidden;
+}
+
+.menu_item:hover{
+  color: #cccccc;
+}
+
+.menu_item a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu_hidden{
+  top: -200px;
+
+  animation-duration: 0.5s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from{
+    top: 65px;
+  }
+  to{
+    top: -150;
+  }
+}
+
+.menu_show{
+  top: 65px;
+
+  transition: top 0.5s linear;
+}
+
+.scroll_wrapper{
+  display: none;
+}
+
+ @media  (min-width: 768px ){
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 768px;
+    box-sizing: border-box;
+    padding-left: 0;
+    min-height: 911px;
+
+    margin-top: 0;
+
+    background-color: #ffffff;
+    background-image: url("./headerTablet.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .menu_title{
+    display: none;
+  }
+
+  .menu{
+    margin-left: 66px;
+    padding-top: 26px;
+  }
+
+  .menu_list{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 27px;
+    width: 654px;
+
+    box-sizing: border-box;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 23px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    list-style: none;
+    overflow: hidden;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .menu_item:first-child{
+    margin-left: 30px;
+  }
+
+  .menu_item:nth-child(2){
+    margin-left: 55px;
+  }
+
+  .menu_item:nth-child(3){
+    margin-left: 60px;
+  }
+
+  .menu_item:nth-child(4){
+    margin-left: 67px;
+  }
+
+  .menu_item a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .scroll_wrapper{
+    padding-bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .scroll_text{
+    margin-left: 255px;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    letter-spacing: .1em;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .arrows{
+    margin: auto;
+    width: 64px;
+    height: 84px;
+
+    position: relative;
+
+    list-style: none;
+  }
+
+  .arrows:hover li{
+    border-color: #999999;
+  }
+
+  .arrow_item{
+    width: 23px;
+    height: 23px;
+
+    position: absolute;
+    box-sizing: border-box;
+
+    border: 4px solid #ffffff;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg);
+  }
+
+  .arrow_item:nth-child(1){
+    top: 10px;
+    left: 60px;
+  }
+
+  .arrow_item:nth-child(2){
+    top: 25px;
+    left: 60px;
+  }
+}
+
+ @media  (min-width: 1592px ){
+   .header{
+     width: 1920px;
+     min-height: 1080px;
+
+     background-image: url("./headerDesktop.jpg");
+   }
+
+   .menu{
+     margin-left: 67px;
+   }
+
+   .menu_list{
+     width: 1786px;
+   }
+
+   .menu_item:first-child{
+     margin-left: 587px;
+   }
+
+   .scroll_text{
+     margin-top: 0;
+     margin-left: 813px;
+     margin-bottom: 0;
+   }
+
+   .arrows{
+     margin: auto;
+     padding: 0;
+     width: 64px;
+     height: 105px;
+
+     position: relative;
+
+     list-style: none;
+   }
+
+   .arrow_item:nth-child(1){
+     top: 11px;
+     left: 22px;
+   }
+
+   .arrow_item:nth-child(2){
+     top: 25px;
+     left: 22px;
+   }
+ }
