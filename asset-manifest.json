@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-jason-wood-blitz-test/static/css/main.ca2134c8.chunk.css",
+    "main.js": "/react-jason-wood-blitz-test/static/js/main.2e5b815b.chunk.js",
+    "main.js.map": "/react-jason-wood-blitz-test/static/js/main.2e5b815b.chunk.js.map",
+    "runtime-main.js": "/react-jason-wood-blitz-test/static/js/runtime-main.e78e8ab3.js",
+    "runtime-main.js.map": "/react-jason-wood-blitz-test/static/js/runtime-main.e78e8ab3.js.map",
+    "static/js/2.2a5dc212.chunk.js": "/react-jason-wood-blitz-test/static/js/2.2a5dc212.chunk.js",
+    "static/js/2.2a5dc212.chunk.js.map": "/react-jason-wood-blitz-test/static/js/2.2a5dc212.chunk.js.map",
+    "index.html": "/react-jason-wood-blitz-test/index.html",
+    "static/css/main.ca2134c8.chunk.css.map": "/react-jason-wood-blitz-test/static/css/main.ca2134c8.chunk.css.map",
+    "static/js/2.2a5dc212.chunk.js.LICENSE.txt": "/react-jason-wood-blitz-test/static/js/2.2a5dc212.chunk.js.LICENSE.txt",
+    "static/media/header.module.css": "/react-jason-wood-blitz-test/static/media/headerTablet.0c2bfc83.jpg",
+    "static/media/jasonwood.a43825ef.jpg": "/react-jason-wood-blitz-test/static/media/jasonwood.a43825ef.jpg",
+    "static/media/jasonwoodDesktop.6e963bd3.jpg": "/react-jason-wood-blitz-test/static/media/jasonwoodDesktop.6e963bd3.jpg",
+    "static/media/jasonwoodTablet.7db84a3c.jpg": "/react-jason-wood-blitz-test/static/media/jasonwoodTablet.7db84a3c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e78e8ab3.js",
+    "static/js/2.2a5dc212.chunk.js",
+    "static/css/main.ca2134c8.chunk.css",
+    "static/js/main.2e5b815b.chunk.js"
+  ]
+}
